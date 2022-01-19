@@ -1,0 +1,18 @@
+[file_config]
+    [file_config.file_paths]
+        input_file_path = '//customer/userdat$/crawley/Tsang1H/Apr 22 Annex'
+        output_file_path ='//customer/userdat$/crawley/Tsang1H/Apr 22 Annex/Import_DUoS_Final.csv'
+    [file_config.files]
+        file_type = '*.xlsx'
+        sheet_name = 'Annex 2a Import'
+    [file_config.column_validation]
+        headers = ['Import\nUnique Identifier', 'LLFC', 'Import\ncapacity charge\n(p/kVA/day)',
+               'Import\nexceeded capacity charge\n(p/kVA/day)', 'Import MPANs/MSIDs', 'Name',
+               'Import\nfixed charge\n(p/day)', 'Import\nSuper Red\nunit charge\n(p/kWh)']
+    [file_config.index]
+        header_location = 2
+        skip_rows = 2
+
+
+
+
